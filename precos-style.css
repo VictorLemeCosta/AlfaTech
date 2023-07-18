@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #2f86d6;
+    height: 130px;
+}
+
+.topo {
+    width: 1024px;
+    margin: 0px auto;
+    padding: 20px 0px;
+    height: 100px;
+    position: relative;
+}
+
+.logo { 
+    width: 350px;
+    height: 90px;
+    position: relative;
+}
+
+.logo img, .rodape img {
+    width: 70px;
+    margin: 5px;
+}
+
+.logo div {
+    margin-left: 5px;
+    width: 240px;
+    height: 70px;
+    position: absolute;
+    top: 8px;
+    left: 75px;
+}
+
+.logo h1 {
+    font-size: 25px;
+    color: #000000;
+}
+
+.logo p, .logo-rodape p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu {
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.precos {
+    margin: 70px auto;
+    width: 1024px;
+}
+
+table {
+    background-color: #fff;
+    border-radius: 3px;
+    width: 1024px;
+    height: 700px;
+}
+
+table th {
+    background-color: #f1f3f7;
+    width: 200px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    padding: 5px;
+}
+
+table tr {
+    height: 45px;
+}
+
+.destaque {
+    background-color: #f1f3f7;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
+    width: 250px;
+}
+
+.th-escondida {
+    visibility: hidden;
+}
+
+table th h3{
+    height: 50px;
+    margin-top: 20px;
+}
+
+table th p {
+    color: #a89f9f;
+    font-weight: 100;
+    width: 150px;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+table td {
+    text-align: center;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.marcador-azul {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+  }
+
+.rodape {
+    width: 100%;
+    background-color: #2f86d6;
+}
+
+.limita-rodape {
+    width: 1024px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.logo-rodape {
+    position: relative;
+    width: 300px;
+    margin: 50px auto 15px;
+    height: 80px;
+}
+
+.logo-rodape img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.logo-rodape div {
+    width: 300px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.limita-rodape p {
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.name {
+    background-color: #f1f3f7;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-weight: 630;
+    padding-top: 20px;
+}
+
+.name span {
+    color: #2f86d6;
+}
